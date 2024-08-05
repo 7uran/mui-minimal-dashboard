@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
+import { toast } from 'react-toastify';
 
 const EditModal = ({ job, onClose, onSave }) => {
     const [formData, setFormData] = useState({ ...job });
@@ -14,7 +15,13 @@ const EditModal = ({ job, onClose, onSave }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+    try {
+        toast.success("Job updated successfully")
         onSave(formData);
+        console.log("success!")
+    } catch (error) {
+        console.error(error)
+    }
     };
 
     return (

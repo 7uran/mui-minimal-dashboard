@@ -41,7 +41,7 @@ const Card = ({ job, onDelete }) => {
         try {
             await axios.put(`${BASE_URL}/${updatedJob.id}`, updatedJob);
             mutate(BASE_URL);
-            toast.success('Job updated successfully!');
+            // toast.success('Job updated successfully!');
             closeEditModal();
         } catch (error) {
             console.error(error);

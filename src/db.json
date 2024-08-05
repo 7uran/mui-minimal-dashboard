@@ -1,24 +1,13 @@
 {
   "jobs": [
     {
-      "id": "4",
-      "companyLogo": "https://pub-c5e31b5cdafb419fb247a8ac2e78df7a.r2.dev/mock/assets/images/company/company-3.webp",
-      "title": "Data Scientist",
-      "postedDate": "03 Aug 2024",
-      "candidatesCount": 12,
-      "experience": "2 year exp",
-      "salary": "Negotiable",
-      "employmentType": "On-demand",
-      "position": "Project Coordinator"
-    },
-    {
       "id": "5",
       "companyLogo": "https://pub-c5e31b5cdafb419fb247a8ac2e78df7a.r2.dev/mock/assets/images/company/company-5.webp",
       "title": "Data Scientist",
       "postedDate": "03 Aug 2024",
       "candidatesCount": 12,
       "experience": "2 year exp",
-      "salary": "Negotiable",
+      "salary": "5",
       "employmentType": "Part-time",
       "position": "Project Coordinator"
     },
@@ -79,7 +68,29 @@
     },
     {
       "id": "11",
-      "companyLogo": "https://pub-c5e31b5cdafb419fb247a8ac2e78df7a.r2.dev/mock/assets/images/company/company-5.webp",
+      "companyLogo": "https://pub-c5e31b5cdafb419fb247a8ac2e78df7a.r2.dev/mock/assets/images/company/company-10.webp",
+      "title": "Marketing Manager",
+      "postedDate": "03 Aug 2024",
+      "candidatesCount": 12,
+      "experience": "No experience",
+      "salary": "Negotiable",
+      "employmentType": "Part-time",
+      "position": "CEO"
+    },
+    {
+      "id": "12",
+      "companyLogo": "https://pub-c5e31b5cdafb419fb247a8ac2e78df7a.r2.dev/mock/assets/images/company/company-8.webp",
+      "title": "Marketing Manager",
+      "postedDate": "03 Aug 2024",
+      "candidatesCount": 12,
+      "experience": "No experience",
+      "salary": "Negotiable",
+      "employmentType": "Part-time",
+      "position": "CEO"
+    },
+    {
+      "id": "13",
+      "companyLogo": "https://pub-c5e31b5cdafb419fb247a8ac2e78df7a.r2.dev/mock/assets/images/company/company-9.webp",
       "title": "Data Scientist",
       "postedDate": "03 Aug 2024",
       "candidatesCount": 12,
